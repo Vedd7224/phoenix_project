@@ -1,5 +1,5 @@
 defmodule Superteams.Endpoint do
-  use Phoenix.Endpoint, otp_app: :phoenix
+  use Phoenix.Endpoint, otp_app: :superteams
 
   socket "/socket", Superteams.UserSocket
 
