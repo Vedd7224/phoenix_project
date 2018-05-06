@@ -12,8 +12,8 @@ defmodule Superteams do
       supervisor(Superteams.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Superteams.Endpoint, []),
-      # Start your own worker by calling: Phoenix.Worker.start_link(arg1, arg2, arg3)
-      # worker(Phoenix.Worker, [arg1, arg2, arg3]),
+      # Start your own worker by calling: Superteams.Worker.start_link(arg1, arg2, arg3)
+      # worker(Superteams.Worker, [arg1, arg2, arg3]),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

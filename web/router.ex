@@ -23,7 +23,7 @@ defmodule Superteams.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Phoenix do
+  # scope "/api", Superteams do
   #   pipe_through :api
   # end
 end

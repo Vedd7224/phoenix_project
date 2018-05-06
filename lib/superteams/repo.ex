@@ -1,3 +1,3 @@
 defmodule Superteams.Repo do
-  use Ecto.Repo, otp_app: :phoenix
+  use Ecto.Repo, otp_app: :superteams
 end
